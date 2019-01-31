@@ -1,0 +1,27 @@
+{
+  "name": "bpmn-js-rtl-example",
+  "version": "0.0.0",
+  "description": "bpmn-js RTL example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve test",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpmn-io/bpmn-js-rtl-example.git"
+  },
+  "keywords": [
+    "bpmn-js",
+    "bpmn-js-example",
+    "rtl"
+  ],
+  "author": {
+    "name:": "Nico Rehwaldt",
+    "url": "https://github.com/nikku"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^10.1.1"
+  }
+}

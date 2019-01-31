@@ -2,3 +2,14 @@
 
 This example documents how to user [bpmn-js](https://github.com/bpmn-io/bpmn-js) with RTL (right to left) languages.
 
+
+## Run the Example
+
+```
+npm run dev
+```
+
+
+## License
+
+MIT

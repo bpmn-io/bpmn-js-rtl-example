@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1a901ft" targetNamespace="http://bpmn.io/schema/bpmn">
+  <bpmn:process id="Process_1" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_1" name="این یک متن فارسی به همراه یک کلمه English است">
+      <bpmn:outgoing>SequenceFlow_0xbfpzb</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_0zfi989" name="این یک متن فارسی به همراه یک کلمه English است">
+      <bpmn:incoming>SequenceFlow_0xbfpzb</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0xbfpzb" sourceRef="StartEvent_1" targetRef="Task_0zfi989" />
+    <bpmn:textAnnotation id="TextAnnotation_0tvfm3h">
+      <bpmn:text>این یک متن فارسی به همراه یک کلمه English است</bpmn:text>
+    </bpmn:textAnnotation>
+    <bpmn:association id="Association_0527q8g" sourceRef="Task_0zfi989" targetRef="TextAnnotation_0tvfm3h" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_1">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="283" y="186" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0zfi989_di" bpmnElement="Task_0zfi989">
+        <dc:Bounds x="369" y="164" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0xbfpzb_di" bpmnElement="SequenceFlow_0xbfpzb">
+        <di:waypoint x="319" y="204" />
+        <di:waypoint x="369" y="204" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="TextAnnotation_0tvfm3h_di" bpmnElement="TextAnnotation_0tvfm3h">
+        <dc:Bounds x="169" y="100" width="125" height="40" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Association_0527q8g_di" bpmnElement="Association_0527q8g">
+        <di:waypoint x="369" y="182" />
+        <di:waypoint x="276" y="140" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
